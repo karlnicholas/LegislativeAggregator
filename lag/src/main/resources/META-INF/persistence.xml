@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="openstats">
+    <provider>org.hibernate.ejb.HibernatePersistence</provider>
+    <jta-data-source>java:jboss/datasources/OpenStatsDS</jta-data-source>
+    <class>openstats.dbmodel.DBAssembly</class>
+    <class>openstats.dbmodel.DBDistrict</class>
+    <class>openstats.dbmodel.DBGroup</class>
+    <class>openstats.dbmodel.DBGroupInfo</class>
+    <class>openstats.dbmodel.DBGroupResults</class>
+    <class>openstats.dbmodel.DBInfoItem</class>
+    <class>openstats.dbmodel.DBLegislator</class>
+    <class>openstats.dbmodel.Result</class>
+    <properties>
+      <!-- Properties for Hibernate -->
+      <property name="hibernate.show_sql" value="false" />
+      <property name="hibernate.hbm2ddlauto" value="validate" />
+      <!-- <property name="hibernate.enable_lazy_load_no_trans" value="true" /> -->
+    </properties>
+  </persistence-unit>
+</persistence>

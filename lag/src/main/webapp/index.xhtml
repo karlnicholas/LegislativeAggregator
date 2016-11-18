@@ -1,0 +1,78 @@
+<ui:composition template="/WEB-INF/templates/template.xhtml" xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:h="http://xmlns.jcp.org/jsf/html"
+  xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+  <ui:define name="content">
+    <div class="container-fluid">
+      <h:panelGroup layout="block" rendered="#{!empty exportCsv.currentAssembly and exportCsv.groupsSelected}">
+        <div class="row">
+          <div class="col-xs-8 col-xs-offset-2">
+            <h4>Export available for #{exportCsv.currentAssembly}.</h4>
+            <h:dataTable value="#{exportCsv.assembly.group.makeTableRows()}" var="tableRow" styleClass="table table-bordered">
+              <f:facet name="header">
+                <h:outputText value="Groups Selected" />
+              </f:facet>
+              <h:column>
+                <f:facet name="header">Group Name</f:facet>
+                <h:outputText value="#{tableRow.name}" />
+              </h:column>
+              <h:column>
+                <f:facet name="header">Description</f:facet>
+                <h:outputText value="#{tableRow.desciption}" />
+              </h:column>
+            </h:dataTable>
+            <h:dataTable value="#{exportCsv.assembly.infoItems}" var="infoItem" styleClass="table table-bordered">
+              <f:facet name="header">
+                <h:outputText value="Columns for export" />
+              </f:facet>
+              <h:column>
+                <f:facet name="header">Label</f:facet>
+                <h:outputText value="#{infoItem.label}" />
+              </h:column>
+              <h:column>
+                <f:facet name="header">Description</f:facet>
+                <h:outputText value="#{infoItem.description}" />
+              </h:column>
+            </h:dataTable>
+          </div>
+        </div>
+      </h:panelGroup>
+      <h:panelGroup layout="block" rendered="#{empty exportCsv.currentAssembly and !exportCsv.groupsSelected}">
+        <div class="row">
+          <div class="col-xs-8 col-xs-offset-2">
+          <p>Legislative Aggregation is a database and API that supports datasets for state legislatures, broken down by district and representative. Selected datasets are combined and made available for export. First select which state and session combination you want to be exported.</p>  
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-8 col-xs-offset-2">
+            <h:form>
+              <h:selectOneMenu value="#{exportCsv.currentAssembly}" styleClass="form-control">
+                <f:selectItems value="#{exportCsv.assemblyTitles}" />
+              </h:selectOneMenu>
+              <h:commandButton type="submit" value="Select" styleClass="btn btn-default" />
+            </h:form>
+          </div>
+        </div>
+      </h:panelGroup>
+      <h:panelGroup layout="block" rendered="#{!empty exportCsv.currentAssembly and !exportCsv.groupsSelected}">
+        <div class="row">
+        <div class="row">
+          <div class="col-xs-8 col-xs-offset-2">
+          <p>The currently selected state/session combination is <h:outputText value="#{exportCsv.currentAssembly}" />. Select which datasets you want included in your export.</p>  
+          </div>
+        </div>
+          <div class="col-xs-8 col-xs-offset-2">
+            <h:form>
+              <h:message for="groupitems" />
+              <h:selectManyListbox value="#{exportCsv.selectedAssemblyGroups}" id="groupitems"
+                converter="#{groupNameConverterBean}" required="true"
+                requiredMessage="At least one group must be selected." styleClass="form-control">
+                <f:selectItems value="#{exportCsv.allAssemblyGroups}" var="dbGroup" itemLabel="#{dbGroup.groupName}:#{dbGroup.groupDescription}" itemValue="#{dbGroup}" />
+              </h:selectManyListbox>
+              <h:commandButton type="submit" value="Select" styleClass="btn btn-default" />
+            </h:form>
+          </div>
+        </div>
+      </h:panelGroup>
+    </div>
+  </ui:define>
+</ui:composition>

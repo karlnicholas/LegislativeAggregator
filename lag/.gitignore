@@ -1,0 +1,11 @@
+/target/
+.classpath
+.project
+.settings/
+/.apt_generated/
+/bin/
+target
+.settings/*
+!.settings/.jsdtscope
+/dbinfo.txt
+/doc/
