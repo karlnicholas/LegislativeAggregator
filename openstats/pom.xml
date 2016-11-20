@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>openstats</groupId>
   <artifactId>openstats</artifactId>
-  <version>0.0.2</version>
+  <version>0.0.3-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>OpenStats</name>
   <description>OpenStats: Legislative Aggregations And Computations.</description>

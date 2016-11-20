@@ -1,0 +1,200 @@
+GA:236
+MI:148
+MT:150
+IN:150
+CT:189
+District not found for state 50:LOWER:A-R
+District not found for state 50:LOWER:B-R
+District not found for state 50:LOWER:C-1
+District not found for state 50:LOWER:C-3
+District not found for state 50:LOWER:C10
+District not found for state 50:LOWER:C41
+District not found for state 50:LOWER:C42
+District not found for state 50:LOWER:C64
+District not found for state 50:LOWER:C65
+District not found for state 50:LOWER:C66
+District not found for state 50:LOWER:C67
+District not found for state 50:LOWER:C73
+District not found for state 50:LOWER:C74
+District not found for state 50:LOWER:C81
+District not found for state 50:LOWER:C82
+District not found for state 50:LOWER:C83
+District not found for state 50:LOWER:C91
+District not found for state 50:LOWER:C92
+District not found for state 50:LOWER:E-C
+District not found for state 50:LOWER:ECO
+District not found for state 50:LOWER:F-7
+District not found for state 50:LOWER:F31
+District not found for state 50:LOWER:F32
+District not found for state 50:LOWER:GIC
+District not found for state 50:LOWER:LM1
+District not found for state 50:LOWER:LM2
+District not found for state 50:LOWER:LM3
+District not found for state 50:LOWER:LMW
+District not found for state 50:LOWER:O-1
+District not found for state 50:LOWER:O-2
+District not found for state 50:LOWER:O-C
+District not found for state 50:LOWER:O-L
+District not found for state 50:LOWER:OR1
+District not found for state 50:LOWER:OR2
+District not found for state 50:LOWER:OWA
+District not found for state 50:LOWER:R-1
+District not found for state 50:LOWER:R-B
+District not found for state 50:LOWER:R-W
+District not found for state 50:LOWER:RW2
+District not found for state 50:LOWER:W-3
+District not found for state 50:LOWER:W21
+District not found for state 50:LOWER:W22
+District not found for state 50:LOWER:W23
+District not found for state 50:LOWER:WA1
+District not found for state 50:LOWER:WA2
+District not found for state 50:LOWER:WA3
+District not found for state 50:LOWER:WA4
+District not found for state 50:LOWER:WA5
+District not found for state 50:LOWER:WA6
+District not found for state 50:LOWER:WA7
+District not found for state 50:LOWER:WAC
+District not found for state 50:LOWER:WBW
+District not found for state 50:LOWER:WIB
+District not found for state 50:LOWER:Y-1
+District not found for state 50:LOWER:Y-R
+District not found for state 50:LOWER:Y31
+District not found for state 50:LOWER:Y32
+District not found for state 50:LOWER:Y41
+District not found for state 50:LOWER:Y42
+VT:121
+UT:104
+SD:72
+OR:90
+OH:134
+WY:90
+RI:113
+District not found for state 32:UPPER:020
+District not found for state 32:UPPER:021
+NV:61
+NM:112
+District not found for state 33:LOWER:006
+District not found for state 33:LOWER:007
+District not found for state 33:LOWER:206
+District not found for state 33:LOWER:207
+District not found for state 33:LOWER:208
+District not found for state 33:LOWER:209
+District not found for state 33:LOWER:210
+District not found for state 33:LOWER:211
+District not found for state 33:LOWER:212
+District not found for state 33:LOWER:213
+District not found for state 33:LOWER:405
+District not found for state 33:LOWER:406
+District not found for state 33:LOWER:407
+District not found for state 33:LOWER:408
+District not found for state 33:LOWER:409
+District not found for state 33:LOWER:410
+District not found for state 33:LOWER:411
+District not found for state 33:LOWER:412
+District not found for state 33:LOWER:413
+District not found for state 33:LOWER:512
+District not found for state 33:LOWER:513
+District not found for state 33:LOWER:514
+District not found for state 33:LOWER:515
+District not found for state 33:LOWER:516
+District not found for state 33:LOWER:517
+District not found for state 33:LOWER:518
+District not found for state 33:LOWER:519
+District not found for state 33:LOWER:520
+District not found for state 33:LOWER:521
+District not found for state 33:LOWER:522
+District not found for state 33:LOWER:523
+District not found for state 33:LOWER:524
+District not found for state 33:LOWER:525
+District not found for state 33:LOWER:526
+District not found for state 33:LOWER:527
+District not found for state 33:LOWER:528
+District not found for state 33:LOWER:529
+District not found for state 33:LOWER:530
+District not found for state 33:LOWER:531
+District not found for state 33:LOWER:532
+District not found for state 33:LOWER:533
+District not found for state 33:LOWER:534
+District not found for state 33:LOWER:535
+District not found for state 33:LOWER:536
+District not found for state 33:LOWER:537
+District not found for state 33:LOWER:714
+District not found for state 33:LOWER:715
+District not found for state 33:LOWER:716
+District not found for state 33:LOWER:717
+District not found for state 33:LOWER:718
+District not found for state 33:LOWER:719
+District not found for state 33:LOWER:720
+District not found for state 33:LOWER:721
+District not found for state 33:LOWER:722
+District not found for state 33:LOWER:723
+District not found for state 33:LOWER:724
+District not found for state 33:LOWER:725
+District not found for state 33:LOWER:726
+District not found for state 33:LOWER:727
+District not found for state 33:LOWER:728
+District not found for state 33:LOWER:729
+District not found for state 33:LOWER:908
+NH:127
+NE:49
+ND:94
+ME:188
+IL:179
+FL:160
+CO:100
+AL:140
+AK:60
+KY:138
+AR:135
+OK:149
+District not found for state 25:UPPER:001
+District not found for state 25:UPPER:002
+District not found for state 25:UPPER:003
+District not found for state 25:UPPER:004
+District not found for state 25:UPPER:005
+District not found for state 25:UPPER:006
+District not found for state 25:UPPER:007
+District not found for state 25:UPPER:008
+District not found for state 25:UPPER:009
+District not found for state 25:UPPER:010
+District not found for state 25:UPPER:011
+District not found for state 25:UPPER:012
+District not found for state 25:UPPER:013
+District not found for state 25:UPPER:014
+District not found for state 25:UPPER:015
+District not found for state 25:UPPER:016
+District not found for state 25:UPPER:017
+District not found for state 25:UPPER:018
+District not found for state 25:UPPER:019
+MA:202
+NC:170
+AZ:60
+HI:78
+LA:146
+TN:132
+VA:140
+NJ:82
+PA:253
+District not found for state 24:LOWER:004
+District not found for state 24:LOWER:005
+District not found for state 24:LOWER:012
+District not found for state 24:LOWER:033
+District not found for state 24:LOWER:27C
+District not found for state 24:LOWER:30A
+District not found for state 24:LOWER:30B
+District not found for state 24:LOWER:31A
+District not found for state 24:LOWER:31B
+District not found for state 24:LOWER:38C
+District not found for state 24:LOWER:42A
+District not found for state 24:LOWER:42B
+District not found for state 24:LOWER:44A
+District not found for state 24:LOWER:44B
+District not found for state 24:LOWER:47A
+District not found for state 24:LOWER:47B
+MD:146
+MS:174
+MO:197
+TX:181
+District not found for state 36:UPPER:063
+NY:212
+CA:120

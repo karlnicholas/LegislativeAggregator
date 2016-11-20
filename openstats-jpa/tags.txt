@@ -1,0 +1,18 @@
+CSSF,2009e5,ak,000,0003,0000001,333471,266201,220762,45439,36132,5602,3705,...
+The first six fields from “ACSSF” to “0000001” are identifiers:
+1) The first field tells you that this is an ACS Summary File
+2) The second tells you that these data are five year estimates for the year 2005 2009 (notice the “e” before “2009” and the “5” at the end)
+3) The third tells you the state, e.g.. “ak” is Alaska
+4) The fourth is an iteration number 000
+5) The fifth is the sequence number 0003
+6) The last is a logical record code LOGRECNO 0000001. Use LOGRECNO to determine the geographic area within a state.
+
+Then use the geography file for Alaska to determine the location within the state to which the data refer. 
+The appropriate file is g20095ak.txt, where “g” stands for geography, “2009” is the year, 
+“5” is the period estimate (in this case, 5 year estimate), and “ak” is the state. The
+geography file, g20095ak.txt, defines the LOGRECNO. Each LOGRECNO in this file specifies a geographic area pertaining
+to the state. For example, a LOGRECNO of “0000001” means the state of Alaska; a LOGRECNO of “0000002” means just the urban areas in Alaska; a
+LOGRECNO of “0000003” refers to just rural areas in Alaska. (Each state geography file also contains the lower
+case FIPS State Code.) Please be aware that each state has its own geography
+file. For more information, see
+Chapter 2.4
