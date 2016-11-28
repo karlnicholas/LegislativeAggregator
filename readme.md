@@ -5,4 +5,3 @@ This application is a prototype application designed to hold and aggregate legis
   * Legislators
   * Bill progress
   
-   
